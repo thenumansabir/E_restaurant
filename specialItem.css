@@ -1,0 +1,239 @@
+/* Pizza 1 */
+
+#one {
+    background-color: antiquewhite;
+    height: 500px;
+}
+
+#one img {
+    height: 400px;
+    position: absolute;
+    left: 200px;
+    top: 230px;
+}
+
+.one {
+    position: absolute;
+    right: 300px;
+    top: 333px;
+}
+
+.one h1 {
+    font-size: 50px;
+    color: #a7552d;
+    text-transform: uppercase;
+}
+
+/* Pizza 2 */
+
+#two {
+    background-color: #ffc857;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+}
+
+#two img {
+    height: 600px;
+}
+
+#two .arrow1 {
+    height: 100px;
+    position: absolute;
+    top: 1065px;
+    left: 384px;
+}
+
+#two .arrow2 {
+    height: 80px;
+    position: absolute;
+    top: 685px;
+    right: 435px;
+}
+
+#two span {
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+    position: absolute;
+}
+
+#two span:nth-of-type(1) {
+    top: 1160px;
+    left: 348px;
+}
+
+#two span:nth-of-type(2) {
+    top: 745px;
+    right: 348px;
+}
+
+#two .beefPizza {
+    position: absolute;
+    top: 932px;
+    background-color: rgba(208, 63, 19, .8);
+    font-size: 50px;
+    color: #fff;
+    width: 690px;
+    height: 77px;
+    text-transform: uppercase;
+    border: 3px solid #bb881f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Pizza 3 */
+
+#three {
+    height: 550px;
+    background-color: #fd9c81;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#three .pizza31 {
+    display: flex;
+    margin-left: 100px;
+}
+
+#three .pizza3 span {
+    color: red;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+#three .pizza3 h1 {
+    margin-top: 10px;
+    color: #a75037;
+    text-transform: uppercase;
+}
+
+/* Pizza 4 */
+
+#four {
+    height: 550px;
+    background-color: rgb(255 187 187);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#four .pizza4 {
+    display: flex;
+    margin-right: 145px;
+}
+
+#four .pizza41 h1 {
+    color: #cd2504;
+    text-transform: uppercase;
+}
+
+#four .pizza41 p {
+    font-size: 25px;
+}
+
+/* Pizza 5 */
+
+#five {
+    height: 550px;
+    background-color: #feefd9;
+}
+
+#five img {
+    height: 495px;
+}
+
+#five .pizza5 {
+    position: absolute;
+    top: 2580px;
+    right: 350px;
+}
+
+#five .pizza5 h1 {
+    font-size: 50px;
+    color: #8d401a;
+}
+
+#five .pizza5 p {
+    font-size: 25px;
+}
+
+/* Pizza 6 */
+
+#six {
+    height: 550px;
+    background-color: #ffc857;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#six .pizza6 {
+    margin-right: 100px;
+}
+
+#six .pizza6 h1 {
+    color: #a57718;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+#six .pizza6 p {
+    font-size: 25px;
+}
+
+/* Pizza 7 */
+
+#seven {
+    height: 550px;
+    background-color: #feefd9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#seven .pizza7 {
+    margin-right: 200px;
+}
+
+#seven .pizza71 span {
+    font-size: 22px;
+    color: #ffc857;
+    text-transform: uppercase;
+}
+
+#seven .pizza71 h1 {
+    font-size: 44px;
+    color: #cd2504;
+    text-transform: uppercase;
+}
+
+#seven .pizza71 p {
+    font-size: 26px;
+}
+
+/* Pizza 8 */
+
+#eight {
+    background-color: #fd9c81;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+#eight h1 {
+    color: #a75037;
+    text-transform: uppercase;
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+#eight img {
+    height: 725px;
+    position: absolute;
+    top: 4085px;
+}

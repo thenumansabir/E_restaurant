@@ -1,0 +1,20 @@
+.aboutUS{
+    /* background-color: #e4e5d4; */
+    padding: 50px 0px;
+    background-image: linear-gradient(to right,#fda3ff 20%,#c3d1f4,#a1eced) !important;
+
+}
+.aboutUS h1{
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+}
+
+.aboutDetail{
+    margin-top: 30px;
+    margin-left: 230px;
+    margin-right: 230px;
+}
+.aboutDetail span{
+    font-size: 18px;
+}

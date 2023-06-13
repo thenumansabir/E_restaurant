@@ -1,0 +1,206 @@
+body {
+    /* background-color: #f0f2f5; */
+    /* background-color: #61122f !important; */
+    /* background-color: #009688 !important; */
+    /* background-color: #626773 !important; */
+    /* background-color: #bb0e4d !important; */
+    /* background-color: white; */
+    background-image: linear-gradient(to right,#fda3ff 20%,#c3d1f4,#a1eced) !important;
+    
+}
+
+/* Header Start */
+
+header {
+    /* background-color: #f6b319; */
+    /* background-color: #c7c7c7; */
+    /* background-color: #009688; */
+    /* background-color: white; */
+    background-image: linear-gradient(to right,#fda3ff 20%,#c3d1f4,#a1eced) !important;
+
+}
+
+.logoDiv {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoDiv .logo {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 26px;
+    margin-bottom: 10px;
+}
+.logoDiv h1{
+    font-size: 25px;
+    font-family: 'Creepster', cursive;
+}
+/* 
+.leftDiv {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 20px;
+    left: 50px;
+}
+
+.leftDiv span {
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+} */
+
+.rightDiv {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    visibility: hidden;
+}
+
+.rightDiv button {
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 5px;
+    background-color: khaki;
+}
+
+.rightDiv .material-icons {
+    font-size: 35px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.menuBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 33px;
+
+}
+.menuBar a{
+    text-decoration: none;
+    color: #222;
+    margin: 0px 40px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+/* .menuBar a:nth-child(1) {
+    background-color: khaki;
+    border-radius: 10px;
+    text-decoration: underline;
+    text-decoration-color: #f61919;
+    text-decoration-thickness: 5px;
+} */
+
+.menuBar a:hover {
+    color: #d75050;
+}
+
+/* Header End */
+
+/* Body Start */
+
+.wallPaper {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.wallPaper .homePhoto {
+    margin-top: 20px;
+    box-shadow: 0 0 50px #3f0c1f;
+    border: 2px solid #3F0C1F;
+    border-radius: 05px;
+}
+
+.tiles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #bb0e4d;
+    height: 430px;
+    margin-top: 35px;
+
+
+}
+
+.tiles .tile {
+    height: 250px;
+    width: 400px;
+    margin: 20px;
+}
+
+.tiles .tile .tilePhoto {
+    border-radius: 5px;
+    height: 250px;
+    width: 400px;
+}
+.tile a{
+    text-decoration: none;
+    color: #1f000b;
+}
+.tile .span{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-style: italic;
+    text-transform: uppercase;
+    background-color: aliceblue;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+/* Body End */
+
+/* Footer Start */
+/* footer{
+    background-color: #222 ;
+    margin-top: 50px;
+} */
+.panel-footer{
+	padding-top: 35px;
+	padding-bottom: 30px;
+	background-color: #222;
+	border-top: 0;
+}
+.panel-footer div.row{
+	margin-bottom: 35px;
+}
+#hours>h4, #address>h4{
+	font-size: 1.3em;
+    color: white;
+}
+#hours span{
+    color: white;
+}
+#address span{
+    color: white;
+}
+#address p{
+	color: #557c3e;
+	font-size: 0.8em;
+	line-height: 1.8;
+}
+#testimonials{
+	font-style: italic;
+    color: white;
+
+}
+#testinomials p:nth-child(2){
+	margin-top: 25px; 
+
+}
+.copyRight{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+/* Footer End */

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="orderDetail.css">
+    <link rel="icon" href="images/logo.jpg" type="image/gif">
+    <title>E-Restaurant</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+    <style>
+        /********** Product Page  **********/
+
+.mainDiv {
+    display: flex !important;
+    margin-top: 50px;
+}
+
+.prodImgDiv {
+    margin: 80px;
+    max-width: 500px;
+}
+
+.prodImgDiv .productImage {
+    height: 500px;
+    width: 500px;
+    margin-top: -60px;
+}
+
+.prodName {
+    display: flex;
+    justify-content: left;
+    font-size: 50px;
+}
+
+h2 {
+    color: red;
+    margin: 15px 0px !important;
+}
+
+h5 {
+    color: #085394;
+    margin: 15px 0px !important;
+}
+
+.ingredients{
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-left: 40px;
+    background-color: #dddddd;
+    height: 210px;
+    width: 150px;
+}
+
+.list {
+    margin: 10px 10px 10px 0px;
+}
+
+.cart {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.cart .quantity {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.change {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+    font-size: 25px;
+    border: 1px solid rgb(126, 125, 125);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eff0f5;
+    cursor: pointer;
+}
+
+.change:hover {
+    background-color: #cbcbce;
+}
+
+.number {
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+
+.cart label {
+    font-size: 40px;
+}
+
+.cart input {
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.cart .addCart {
+    margin-left: 140px;
+}
+
+.cart .addCart button {
+    height: 50px;
+    width: 100px;
+    background-color: rgb(123, 168, 123);
+}
+    </style>
+</head>
+<header>
+    <nav>
+        <div>
+            <div>
+                <!-- <div class="leftDiv">
+                    <span>Help</span>
+                    <span>Search</span>
+                </div> -->
+                <a href="index.html" style="text-decoration: none;">
+                    <div class="logoDiv">
+                        <img class="logo" src="images/logo.jpg" alt="logoIsHere">
+                        <h1>E-Restaurant</h1>
+                    </div>
+                </a>
+                <div class="rightDiv">
+                    <button>Login</button>
+                    <span class="material-icons">add_shopping_cart</span>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<body>
+    <div>
+        <div class="mainDiv">
+            <div>
+                <div class="prodImgDiv"><img class="productImage" src="/images/specialItem/pizza1.png"
+                        alt="iPhone 6s"></div>
+            </div>
+            <div>
+                <h1 class="prodName">GRILLED CHICKEN PIZZA</h1>
+                <h2>Rs. 2,500</h2>
+                <h5>Ingredients</h5>
+                <div class="ingredients">
+                    <ul class="list">
+                        <li><b>Chicekn</li>
+                        <li><b>Ham</li>
+                        <li><b>Mushrooms</li>
+                        <li><b>Artichokes</li>
+                        <li><b>Tomatoes</li>
+                        <li><b>Onions</li>
+                        <li><b>Artichokes</li>
+                        <li><b>Cheese</li>
+                    </ul>
+                </div>
+                <div class="cart">
+                    <div class="quantity">
+                        <label for="Quantity">Qty: </label>
+                        <!-- <input type="text" name="" id=""> -->
+                        <span id="disable" class="change"">-</span>
+                        <p id="number" class="number">1</p>
+                        <span class="change" onclick="increment();">+</span>
+                    </div>
+                    <div class="addCart">
+                        <a href="customerInfo.html">
+                            <button id="stock">Add to cart</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="panel-footer">
+        <div class="container">
+            <div class="row">
+                <section id="hours" class="col-sm-4">
+                    <h4>Hours:</h4><br>
+                    <span>Tue-Sun: 11:00 AM - 01:00 AM</span> <br>
+                    <span>Fri: 03:00 PM - 2:30 AM</span><br>
+                    <span>Monday Closed</span>
+
+                    <hr class="visible-xs">
+                </section>
+                <section id="address" class="col-sm-4">
+                    <h4>Address:</h4><br>
+                    <span>G.T Road, Quaid Avenue</span> <br>
+                    <span>Wah Cantt, 47040</span>
+
+                    <p>* Delivery area within 3-4 miles, with minimun order of Rs.1200 plus Rs.200 charges for all
+                        deliveries.
+                    </p>
+                    <hr class="visible-xs">
+                </section>
+                <section id="testimonials" class="col-sm-4">
+                    <p>"The best Pakistani restaurant I've been to! And that's saying a lot, since I've been to many!"
+                    </p>
+                    <p>"Amazing food! Great service! Conldn't ask for more! I'll be back again and again!"</p>
+                </section>
+            </div>
+            <div class="copyRight">&copy; Copyright E-Restaurant 2021 </div>
+        </div>
+    </footer>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

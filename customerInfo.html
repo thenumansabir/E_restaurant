@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="orderDetail.css">
+    <link rel="icon" href="images/logo.jpg" type="image/gif">
+    <title>E-Restaurant</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+    <style>
+        .form-group {
+            font-size: 25px;
+        }
+    </style>
+</head>
+<header>
+    <nav>
+        <div>
+            <div>
+                <!-- <div class="leftDiv">
+                    <span>Help</span>
+                    <span>Search</span>
+                </div> -->
+                <a href="index.html" style="text-decoration: none;">
+                    <div class="logoDiv">
+                        <img class="logo" src="images/logo.jpg" alt="logoIsHere">
+                        <h1>E-Restaurant</h1>
+                    </div>
+                </a>
+                <div class="rightDiv">
+                    <button>Login</button>
+                    <span class="material-icons">add_shopping_cart</span>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<body>
+    <div style="display: flex;
+    ">
+        <div style="
+    width:1000px;
+    margin-left: 200px;
+    ">
+            <form class="form">
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="inputEmail4">First Name</label>
+                        <input type="text" class="form-control" id="firstName" id="inputEmail4" placeholder="Abdullah">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="inputPassword4">Last Name</label>
+                        <input type="text" class="form-control" id="lastName" id="inputPassword4" placeholder="Rafique">
+                    </div>
+                </div>
+                <div class="form-group  col-md-6">
+                    <label for="inputAddress">Phone #</label>
+                    <input type="text" class="form-control" id="phone" id="inputAddress" placeholder="123456789">
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="inputCity">City</label>
+                        <input type="text" class="form-control" id="city" id="inputCity" placeholder="Rawalpindi">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="inputAddress2">Address</label>
+                        <input type="text" class="form-control" id="address" id="inputAddress2"
+                            placeholder="House# 1, Street# 2">
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label for="inputState">Province</label>
+                        <select id="province" id="inputState" class="form-control">
+                            <option selected>Choose...</option>
+                            <option>Islamabad</option>
+                            <option>Balochistan</option>
+                            <option>Khyber Pakhtunkhwa</option>
+                            <option>Punjab</option>
+                            <option>Sindh</option>
+                            <option>Gilgit-Baltistan</option>
+                        </select>
+                    </div>
+                </div>
+            </form>
+            <button onclick="document.location='message.html'" type="submit" class="btn btn-primary"
+                style="margin: 20px 0px;">Confirm
+                Order</button>
+        </div>
+        <div>
+            <img src="images/specialItem/pizza1.png" alt="" style=" width: 500px; height:500px; position: absolute; right: 150px;">
+        </div>
+    </div>
+    <footer class="panel-footer">
+        <div class="container">
+            <div class="row">
+                <section id="hours" class="col-sm-4">
+                    <h4>Hours:</h4><br>
+                    <span>Tue-Sun: 11:00 AM - 01:00 AM</span> <br>
+                    <span>Fri: 03:00 PM - 2:30 AM</span><br>
+                    <span>Monday Closed</span>
+
+                    <hr class="visible-xs">
+                </section>
+                <section id="address" class="col-sm-4">
+                    <h4>Address:</h4><br>
+                    <span>G.T Road, Quaid Avenue</span> <br>
+                    <span>Wah Cantt, 47040</span>
+
+                    <p>* Delivery area within 3-4 miles, with minimun order of Rs.1200 plus Rs.200 charges for all
+                        deliveries.
+                    </p>
+                    <hr class="visible-xs">
+                </section>
+                <section id="testimonials" class="col-sm-4">
+                    <p>"The best Pakistani restaurant I've been to! And that's saying a lot, since I've been to many!"
+                    </p>
+                    <p>"Amazing food! Great service! Conldn't ask for more! I'll be back again and again!"</p>
+                </section>
+            </div>
+            <div class="copyRight">&copy; Copyright E-Restaurant 2021 </div>
+        </div>
+
+    </footer>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+.contactUS {
+    /* background-color: #e4e5d4; */
+    padding: 50px 0px;
+    background-image: linear-gradient(to right, #fda3ff 20%, #c3d1f4, #a1eced) !important;
+}
+
+.contactUS h1 {
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+}
+
+.contactUS h2 {
+    text-transform: uppercase;
+    margin-left: 200px;
+}
+
+.contactUS span {
+    margin-left: 200px;
+    font-size: 20px;
+}
